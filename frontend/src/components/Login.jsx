@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import image from '../../../../MyProject/src/assets/icon.png'
+import image from '../assets/icon.png'
 
 export default function Login() {
   const [email, setEmail] = useState("");
@@ -137,3 +137,4 @@ export default function Login() {
     </>
   );
 }
+
